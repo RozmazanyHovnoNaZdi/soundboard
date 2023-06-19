@@ -1,0 +1,23 @@
+﻿<Window x:Class="Soundboard.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Soundboard" Height="350" Width="500">
+    <Grid x:Name="grdPozadi">
+
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <ToggleButton x:Name="ToggleMode" Content="Light/Dark" Margin="0 0 0 10" Checked="ToggleMode_Checked" Unchecked="ToggleMode_Unchecked"/>
+
+            <StackPanel Orientation="Horizontal" Margin="0 10">
+                <Button Content="Sound 1" Margin="5" Click="Button1_Click"/>
+                <Button Content="Sound 2" Margin="5" Click="Button2_Click"/>
+                <Button Content="Sound 3" Margin="5" Click="Button3_Click"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0 10">
+                <Button Content="Sound 4" Margin="5" Click="Button4_Click"/>
+                <Button Content="Sound 5" Margin="5" Click="Button5_Click"/>
+                <Button Content="Sound 6" Margin="5" Click="Button6_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
